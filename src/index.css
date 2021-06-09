@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+form {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(180deg, red, blue);
+  color: white;
+  border: solid white .1px;
+  border-radius: 20px;
+}
+
+form div {
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+form input {
+  display: block;
+  margin-left: 15%;
+}
+
+input {
+  appearance: none;
+  outline: none;
+}
