@@ -14,7 +14,7 @@ export default function LoginForm({Login, error}) {
     return (
         <div id='loginform'>
             <form onSubmit={handleSubmit}>
-            {(error != "") ? (<div>{error}</div>):""}
+            {(error !== "") ? (<div>{error}</div>):""}
                 <div>
                     <label htmlFor="username">Username</label>
                     <input type="text" placeholder="username" name="username" onChange={e => setDetails({...details, username:e.target.value})} value={details.name} required/>

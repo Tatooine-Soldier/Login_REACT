@@ -16,7 +16,6 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50vh;
 }
 
 form {
@@ -26,6 +25,7 @@ form {
   color: white;
   border: solid white .1px;
   border-radius: 20px;
+  
 }
 
 form div {

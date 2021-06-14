@@ -35,13 +35,52 @@
   to {
     transform: rotate(360deg);
   }
+
+}
+
+#log_cont {
+  margin-top: 10%;
 }
 
 #loginform form {
   align-items: center;
   justify-content: space-around;
+  width: 275px;
+  
 }
 
 #loginform input{
   justify-items: flex-start;
 }
+
+nav {
+  background-color: yellow;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul {
+  align-items: center;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  padding: 20px;
+}
+
+.main {
+  border: solid 5px black;
+  width: 100%;
+}
+
+header {
+  background-color: orange;
+}
+
+main {
+  background-color: antiquewhite;
+}
+
+    
